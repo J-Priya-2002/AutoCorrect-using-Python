@@ -7,8 +7,6 @@ Find out if a word is right spelled through Natural Language Processing algorith
 In this model, we are going to consider **edit distance** between every pair of words in a list containing the vocabulary. Basically, edit distance is a **measure of minimum edits required to convert one word to another**.  
 This process of conversion includes steps like **Delete**,**Replace**,**Switch** and **Insert** on a pair of words. 
 
-In order to do tests the book [Alice in the Wonderland](alice_in_wonderland.txt) was used to provide the vocabulary and word to train the model.
-
 In this project, to reduce complexity, we would go for words that are **1 or 2 edit distance away**.  
 The goal of our model to produce the right output is to compute the **probability of a word being correct, _P(c/w)_ ,is probability of certain word _w_ given that is is correct, _P(w/c)_ , multiplied to probability of being correct in general, _P(c)_ , divided by probability of that word appearing, _P(w)_ .**
 
@@ -50,11 +48,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/Wanghley/8d237a5e568b4e314
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Wanghley/Word-Autocorrection-NLP/tags). 
 
-## Authors
-
-* **Wanghley Martins** - *Initial work* - [wanghley](https://github.com/wanghley)
-
-See also the list of [contributors](https://github.com/Wanghley/Word-Autocorrection-NLP/contributors) who participated in this project.
 
 ## License
 
@@ -65,3 +58,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * You can use this code to integrate in your solutions to correct user's misspelled words.
 * Feel free to use the code whenever you want and how you want to
 * Just remember to reference me and follow the [LICENSE.md](LICENSE.md) rules
+## Sample Output 
+![Screenshot 2023-11-16 161520](https://github.com/J-Priya-2002/AutoCorrect-using-Python/assets/120589767/02d8f1a7-8e4c-441a-bcce-882f951bdb16)
+
